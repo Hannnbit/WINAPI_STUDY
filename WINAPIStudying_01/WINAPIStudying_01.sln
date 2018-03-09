@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WINAPIStudying_01", "WINAPIStudying_01\WINAPIStudying_01.vcxproj", "{BF203BE5-A18B-480A-BDE2-36A672260C8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF203BE5-A18B-480A-BDE2-36A672260C8C}.Debug|x64.ActiveCfg = Debug|x64
+		{BF203BE5-A18B-480A-BDE2-36A672260C8C}.Debug|x64.Build.0 = Debug|x64
+		{BF203BE5-A18B-480A-BDE2-36A672260C8C}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF203BE5-A18B-480A-BDE2-36A672260C8C}.Debug|x86.Build.0 = Debug|Win32
+		{BF203BE5-A18B-480A-BDE2-36A672260C8C}.Release|x64.ActiveCfg = Release|x64
+		{BF203BE5-A18B-480A-BDE2-36A672260C8C}.Release|x64.Build.0 = Release|x64
+		{BF203BE5-A18B-480A-BDE2-36A672260C8C}.Release|x86.ActiveCfg = Release|Win32
+		{BF203BE5-A18B-480A-BDE2-36A672260C8C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9212EDE0-2A62-41AE-9D02-795A592AAF4C}
+	EndGlobalSection
+EndGlobal
