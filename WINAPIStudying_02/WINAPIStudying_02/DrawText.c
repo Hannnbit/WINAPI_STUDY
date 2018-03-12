@@ -49,19 +49,19 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 
 	case WM_PAINT://윈도우가 화면에 나타날때....
 		hdc = GetDC(hwnd);
-		TextOut(hdc, 500,500, _T("나는 너를 좋아한다 소연아"), _tcslen(_T("나는 너를 좋아한다 소연아")));
+		TextOut(hdc, 500,500, _T("test01"), _tcslen(_T("test01")));
 		ReleaseDC(hwnd, hdc);
 
 		소연.bottom = 200;
 		소연.right = 200;
 		소연.top = 100;
-		소연.left = 100;
+		소연.left = 9;
 
 		hdc = BeginPaint(hwnd, &ps);
 		DrawText(hdc, _T("나는 19살이다."), _tcslen(_T("나는 19살이다.")), &소연, DT_SINGLELINE|DT_CENTER);
 		EndPaint(hwnd, &ps);
 		break;
-
+		
 	case WM_DESTROY://윈도우가 꺼질때
 		PostQuitMessage(0);
 		break;

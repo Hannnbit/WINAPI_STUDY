@@ -1,2 +1,4 @@
-﻿  DrawText.c
-  WINAPIStudying_02.vcxproj -> C:\Users\Karl\Desktop\Working\Major\PersonalStudying\WINAPI\WINAPIStudying_02\Debug\WINAPIStudying_02.exe
+﻿  Print_StringVersion2.c
+c:\users\karl\desktop\노 - 동\1. 전공\personalstudying\winapi\winapistudying_02\winapistudying_02\print_stringversion2.c(55): warning C4047: '=': 'TCHAR'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+c:\users\karl\desktop\노 - 동\1. 전공\personalstudying\winapi\winapistudying_02\winapistudying_02\print_stringversion2.c(67): warning C4047: '=': 'TCHAR'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+  WINAPIStudying_02.vcxproj -> C:\Users\Karl\Desktop\노 - 동\1. 전공\PersonalStudying\WINAPI\WINAPIStudying_02\Debug\WINAPIStudying_02.exe

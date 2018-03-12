@@ -49,7 +49,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 
 	case WM_PAINT://윈도우가 화면에 나타날때....
 		hdc = GetDC(hwnd);
-		TextOut(hdc, 100, 100, _T("나는 너를 좋아한다 소연아"), _tcslen(_T("나는 너를 좋아한다 소연아")));
+		TextOut(hdc, 100, 100, _T("test02"), _tcslen(_T("test02")));
 		ReleaseDC(hwnd, hdc);
 		break;
 
